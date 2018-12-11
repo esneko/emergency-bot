@@ -1,0 +1,23 @@
+{
+  "name": "test-emergency-bot",
+  "padlock": "",
+  "version": "2.0",
+  "services": [
+    {
+      "appId": "",
+      "appPassword": "",
+      "endpoint": "http://localhost:3978/api/messages",
+      "type": "endpoint",
+      "name": "development",
+      "id": "1"
+    },
+    {
+      "type": "endpoint",
+      "appId": "",
+      "appPassword": "",
+      "endpoint": "https://emergency-bot.azurewebsites.net/api/messages",
+      "name": "production",
+      "id": "2"
+    }
+  ]
+}

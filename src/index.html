@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>azure-search-bot</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="https://www.konecranes.com/themes/custom/konecranes/favicon.png" type="image/vnd.microsoft.icon" />
+</head>
+
+<body>
+    <div id="webchat"></div>
+    
+    <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
+    <script>
+        window.WebChat.renderWebChat({
+            directLine: window.WebChat.createDirectLine({
+                secret: '5KIDymA3xSY.cwA.oP0.d5t1hAfMZqPf1xm1Bv1PiFmNqBnAi0kHLqfWsE4l8A0'
+            })
+        }, document.getElementById('webchat'));
+    </script>
+</body>
+</html>
